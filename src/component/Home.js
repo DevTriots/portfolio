@@ -10,12 +10,13 @@ export class Home extends Component {
   render() {
     return (
       <div>
+        <div id="intro1">
         <section className="firstSection">
            <div className="leftSection">
-           
-            Hi, My name is <span className="purple"> Pushpendra pal</span>
-            <div>I am passionate</div>
-            <div> web developer</div>
+           <h1>
+            Hi, My name is <br /> <span className="purple"> Pushpendra pal</span><br />I am passionate  <br /> web developer</h1>
+            {/* <h1>I am passionate</h1> */}
+            {/* <div> web developer</div> */}
            <span id="element"></span>
            <div className="button">
             <a  className="btn mx-2" href="https://publuu.com/flip-book/264736/639644" target="_blank" rel="noopener noreferrer">Download Resume</a>
@@ -26,7 +27,8 @@ export class Home extends Component {
             <img src={bgImage} alt=""/>
            </div>
         </section>
-
+        </div>
+         <div id="intro">
         <section className="firstSection">
            <div className="leftSection" id="INTRODUCE">
             <h1>LET ME<span> INTRODUCE</span> MYSELF</h1>
@@ -46,6 +48,7 @@ export class Home extends Component {
             <img src={logoImage} alt=""/>
            </div>
         </section>
+        </div>
         <Footer />
       </div>
     )

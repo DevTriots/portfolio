@@ -232,6 +232,17 @@ main hr{
     display: block;
     /* margin: 25px; */
   }
+   #cantent-wrap1{
+    margin-top: 35%;
+    margin-bottom: 50%;
+   }  
+   #intro1{
+    margin-top: 35%;
+   }
+   #intro{
+    margin-bottom: 35%;
+   }
+
 
 }
  .container1
