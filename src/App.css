@@ -198,6 +198,7 @@ main hr{
 
 @media screen and (max-width: 580px) {
 
+
   #about{
     margin-top: 35%;
     margin-bottom: 50%;
@@ -243,7 +244,33 @@ main hr{
     margin-bottom: 35%;
    }
 
-
+  #footerbox{
+    display: block;  
+  }
+  #footerbox1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #footerbox1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #footerbox2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #footerbox3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
  .container1
 {
