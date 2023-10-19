@@ -13,7 +13,7 @@ const handleChange=(e)=>{
     const handleSubmit = (e) => {
     e.preventDefault();
     alert(data)
-    console.log(data)  ;
+    console.log(data,"Succesesfully Submitted")  ;
 };
 
 

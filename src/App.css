@@ -190,6 +190,9 @@ main hr{
   .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #0ddcf1;
 }
+#number2{
+  display: block;
+}
 
 }
 
@@ -225,11 +228,17 @@ main hr{
     margin-top: 65px;
     margin-bottom: 135px;
   }
+  #number2{
+    display: block;
+    /* margin: 25px; */
+  }
 
 }
  .container1
 {
       display:flex;
+      /* flex-wrap: wrap; */
+      /* flex-direction: column; */
       justify-content: center;
       margin-bottom: 0%;
 }
@@ -242,10 +251,24 @@ main hr{
 }
  .container2
 {
-      display:flex;
+      /* display:flex;
       justify-content: center;
-      margin: 82px
+      flex-wrap: wrap;*/
+      /* margin: 100px; */
+      /* min-height: 120vh;  */
+    /* width: 40%; */
+    margin-left: 8%;
+    margin-right: 8%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
      
+}
+.number3{
+  display: flex;
+  margin: 10px;
 }
  .iteam1{
   padding: 12px;
