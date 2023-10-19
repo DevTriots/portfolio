@@ -18,7 +18,7 @@ export class Home extends Component {
             <div> web developer</div>
            <span id="element"></span>
            <div className="button">
-            <a  className="btn mx-2" href="https://publuu.com/flip-book/264736/622323" target="_blank" rel="noopener noreferrer" >Download Resume</a>
+            <a  className="btn mx-2" href="https://publuu.com/flip-book/264736/639644" target="_blank" rel="noopener noreferrer">Download Resume</a>
             <a className="btn mx-2" href="https://github.com/pushpendra0809"  target="_blank" rel="noopener noreferrer">Visit Github</a>
            </div>
            </div>
