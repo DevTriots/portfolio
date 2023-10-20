@@ -7,71 +7,71 @@ import logoImage3 from "./instagram.png";
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <Link class="navbar-brand" to="/home">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="/home">
             <img src={logoImage} alt="" className="logoImage" />
             Pushpendra's Portpolio
           </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasDarkNavbar"
             aria-controls="offcanvasDarkNavbar"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="offcanvas offcanvas-end text-bg-dark"
-            tabindex="-1"
+            className="offcanvas offcanvas-end text-bg-dark"
+            tabIndex="-1"
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
                 Dark offcanvas
               </h5>
               <button
                 type="button"
-                class="btn-close btn-close-white"
+                className="btn-close btn-close-white"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mr-auto">
-                <li class="nav-item">
-                  <Link class="nav-link active" aria-current="page" to="/home">
+            <div className="offcanvas-body">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 mr-auto">
+                <li className="nav-item">
+                  <Link className="nav-link active" aria-current="page" to="/home">
                     Home
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link class="nav-link active" aria-current="page" to="/About">
+                <li className="nav-item">
+                  <Link className="nav-link active" aria-current="page" to="/About">
                     About
                   </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link
-                    class="nav-link active"
+                    className="nav-link active"
                     aria-current="page"
                     to="/project"
                   >
                     Project
                   </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link
-                    class="nav-link active"
+                    className="nav-link active"
                     aria-current="page"
                     to="/contact"
                   >
                     Contact
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link class="nav-link active" aria-current="page" to="/skill">
+                <li className="nav-item">
+                  <Link className="nav-link active" aria-current="page" to="/skill">
                     Skill
                   </Link>
                 </li>
@@ -103,7 +103,7 @@ const Navbar = () => {
                     <img src={logoImage3} alt="" />
                   </a>
                   <Link
-                    className="btn btn-primary mx-1"
+                    className="btn btn-primary mx-1" id="btn-contect"
                     to="/contact"
                     onClick={() => console.log("connect")}
                   >

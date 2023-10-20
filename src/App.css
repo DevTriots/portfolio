@@ -17,7 +17,7 @@ z-index: 99;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
+  min-height: 80px;
   background-color: rgb(18,18,62) ;
 }
 .logoImage {
@@ -75,7 +75,7 @@ main hr{
  cursor: pointer;
 }
 .rightSection img{
-  width: 277px;
+  width: 100%;
 }
 .purple{
   color: rgb(170,107,228) ;
@@ -136,7 +136,7 @@ main hr{
       
   }
   .rightSection{
-      width: 721px !important;
+      min-width: none !important;
       display: flex;
       justify-content: center;
       margin-top: 15%;
@@ -152,7 +152,7 @@ main hr{
       margin: 4px;
       
   }
-  #INTRODUCE{
+  #INTRODUCE {
     margin-bottom: 10%;
   }
   .secondSection{
@@ -169,14 +169,11 @@ main hr{
       /* justify-content: center; */
       align-items: center;
   }
-  /* #footerbox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } */
-  #about{
+
+  #centerAbout{
     margin-top: 15%;
     margin-bottom: 20%;
+    object-fit: contain;
   }
   #form{
     margin-top: 13%;
@@ -193,16 +190,32 @@ main hr{
 #number2{
   display: block;
 }
+#skill12{
+  margin-top: 15%;
+  margin-bottom: 25%;
+}
 
 }
 
 @media screen and (max-width: 580px) {
 
 
-  #about{
-    margin-top: 35%;
-    margin-bottom: 50%;
+  #centerAbout{
+    margin-top: 60%;
+    margin-bottom: 70%;
+    object-fit: contain;
+    object-position: center;
   }
+  #offcanvasDarkNavbar{
+      width: 70%;
+  }
+  #btn-contect{
+    margin-top: 12px;
+  }
+  #INTRODUCE {
+    margin-bottom: 60%;
+}
+
 
   #cantent-wrap1{
     margin-top: 15%;
@@ -234,11 +247,11 @@ main hr{
     /* margin: 25px; */
   }
    #cantent-wrap1{
-    margin-top: 35%;
-    margin-bottom: 50%;
+    margin-top: 42%;
+    margin-bottom: 76%;
    }  
    #intro1{
-    margin-top: 35%;
+    margin-top: 40%;
    }
    #intro{
     margin-bottom: 35%;
@@ -271,6 +284,10 @@ main hr{
     justify-content: center;
     align-items: center;
   }
+  #skill12{
+      margin-top: 35%;
+      margin-bottom: 93%;
+    }
 }
  .container1
 {
@@ -414,8 +431,8 @@ footer {
 }
 
 .mainline{
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin: 6%;
+ object-fit: contain;
 }
 
 .background{
@@ -436,4 +453,6 @@ footer {
 .container-skill{
   margin-bottom: 20%;
 }
+
+
 

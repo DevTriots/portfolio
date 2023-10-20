@@ -25,6 +25,7 @@ export class Home extends Component {
            </div>
            <div className="rightSection">
             <img src={bgImage} alt=""/>
+            {/* <img src={bgImage} style={{width: "100%", height: "auto"}} alt=""></img> */}
            </div>
         </section>
         </div>

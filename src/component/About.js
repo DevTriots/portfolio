@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
 import Footer from "./footer";
-export class About extends Component {
-  render() {
+const About=()=> {
+
     return (
-      <div className="container mainline mainline2 " id="about" > 
-      
+      <>
+      <div id="aboutpush" > 
+         <div className="mainline" id="centerAbout">
         <h2>AboutMe</h2>
         <p>
           Hello, I'm <span>Pushpendra Pal</span>, a passionate web developer with a strong
@@ -69,10 +70,12 @@ export class About extends Component {
         </p>
         
         
-        <Footer />
+        </div>
       </div>
+        <Footer />
+        </>
     );
   }
-}
+
 
 export default About;
