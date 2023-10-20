@@ -108,7 +108,7 @@ main hr{
  }
 
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
   .box{
       flex-direction: column;
   }
@@ -251,7 +251,7 @@ main hr{
     margin-bottom: 76%;
    }  
    #intro1{
-    margin-top: 40%;
+    margin-top: 45%;
    }
    #intro{
     margin-bottom: 35%;
@@ -342,8 +342,8 @@ main hr{
 }
 
 .form1{
-  margin-top: 7%;
-  margin-bottom: 8%;
+  margin-top: 12%;
+  margin-bottom: 10%;
 }
 
 *{box-sizing: border-box;}
@@ -431,7 +431,7 @@ footer {
 }
 
 .mainline{
-  margin: 6%;
+  margin: 13%;
  object-fit: contain;
 }
 
@@ -445,14 +445,19 @@ footer {
   
 }
 .cantent-wrap{
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 13%;
+  margin-bottom: 13%;
   width: 100%;
  
 }
 .container-skill{
   margin-bottom: 20%;
 }
-
+.intro10{
+  margin-top: 4%;
+ }
+ .intro0{
+  margin-bottom: 5%;
+ }
 
 

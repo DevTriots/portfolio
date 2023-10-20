@@ -10,7 +10,7 @@ export class Home extends Component {
   render() {
     return (
       <div>
-        <div id="intro1">
+        <div className='intro10' id="intro1">
         <section className="firstSection">
            <div className="leftSection">
            <h1>
@@ -29,7 +29,7 @@ export class Home extends Component {
            </div>
         </section>
         </div>
-         <div id="intro">
+         <div className='intro0' id="intro">
         <section className="firstSection">
            <div className="leftSection" id="INTRODUCE">
             <h1>LET ME<span> INTRODUCE</span> MYSELF</h1>
