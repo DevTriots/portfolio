@@ -61,7 +61,7 @@ const Navbar = () => {
                     Project
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link active"
                     aria-current="page"
@@ -69,7 +69,7 @@ const Navbar = () => {
                   >
                     Contact
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link className="nav-link active" aria-current="page" to="/skill">
                     Skill
@@ -79,7 +79,7 @@ const Navbar = () => {
               <span className="navbar-text">
                 <div className="social-icon">
                   <a
-                    className="social-media mx-1"
+                    className="social-media mx-2"
                     href="https://www.linkedin.com/in/pushpendra-pal-9628ab214/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -87,7 +87,7 @@ const Navbar = () => {
                     <img src={logoImage1} alt="" />
                   </a>
                   <a
-                    className="social-media mx-1"
+                    className="social-media mx-2"
                     href="https://github.com/pushpendra0809"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -95,20 +95,20 @@ const Navbar = () => {
                     <img src={logoImage2} alt="" />
                   </a>
                   <a
-                    className="social-media mx-1"
+                    className="social-media mx-2"
                     href="https://www.instagram.com/pushpendra.pal.54772/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img src={logoImage3} alt="" />
                   </a>
-                  <Link
+                  {/* <Link
                     className="btn btn-primary mx-1" id="btn-contect"
                     to="/contact"
                     onClick={() => console.log("connect")}
                   >
                     <span>Let's Connect</span>
-                  </Link>
+                  </Link> */}
                 </div>
               </span>
             </div>

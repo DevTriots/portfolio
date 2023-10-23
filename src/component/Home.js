@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import { Link } from 'react-router-dom';
 import bgImage from './bg.png';
-import logoImage from "./devloper 5.png";
+import logoImage from "./soft.jpg";
 import Footer from './footer';
 
 
@@ -35,13 +35,13 @@ export class Home extends Component {
             <h1>LET ME<span> INTRODUCE</span> MYSELF</h1>
             <h3> <p> Hi, my name is <span>Pushpendra Pal</span> I'm from <span>Orai Uttar Pradesh,India</span>.
            <br />
-            <br /> I recently graduated with a <span>Bachelor  of Technology</span> in Computer Since & Engineering  from 
-           <span>University Institute of Technology, RGPV, Bhopal  in 2023</span>.
+            <br /> I recently graduated with a <span>Bachelor  of Technology</span> in Computer Science & Engineering  from 
+           <span>University Institute of Technology, RGPV, Bhopal</span>.
            <br /><br />As a <span>Full-Stack</span> 
            developer, i enjoy tackling new challenges and continuously expanding my skillset. <br /> 
            I have done project <span>Texttweater , NewsMonkey</span> using Html,Css,Js ,React.
             <br />
-           <br /> I am also interested in building new <span>Web Technology and Products</span> as well as exploring areas related to <span>Softwear Development</span>.</p></h3>
+           <br /> I am also interested in building new <span>Web Technology and Products</span> as well as exploring areas related to <span>Software Development</span>.</p></h3>
            <span id="element"></span>
 
            </div>
