@@ -27,7 +27,6 @@ function App() {
         <Route exact path="/contact" element={<Contact />}/>
         <Route exact path="/skill" element={<Skill />}/>
         <Route exact path="/" element={<Home />}/>
-       
       </Routes>
       </Router>
     </div>
