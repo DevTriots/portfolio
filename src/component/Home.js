@@ -14,7 +14,7 @@ export class Home extends Component {
         <section className="firstSection">
            <div className="leftSection">
            <h1>
-            Hi, My name is <br /> <span className="purple"> devTriots</span><br />I am passionate  <br /> web developer</h1>
+            Hi, We are <br /> <span className="purple"> devTriots</span><br />I am passionate  <br /> web developer</h1>
             {/* <h1>I am passionate</h1> */}
             {/* <div> web developer</div> */}
            <span id="element"></span>
