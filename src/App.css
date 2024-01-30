@@ -12,14 +12,18 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 nav{
-z-index: 99;
+  z-index: 99;
   position: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 80px;
-  background-color: rgb(18,18,62) ;
+  background-color: rgba(0,0,0,0.3) ;
+  
+  
 }
+
+
 .logoImage {
   width: 50px;
   height: 50px; 
@@ -38,10 +42,36 @@ nav ul li a{
   text-decoration: none;
   color: white;
 }
-nav ul li a:hover{
-  color: rgb(153,153,226);
-  font-size: 1.1rem;
+nav ul li .link-cover{
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-family: 'Tektur', sans-serif;
+  font-size: 1.3rem;
+  
+  transition: background-color 0.3s ease;
+  
+} 
+
+ nav ul li .link-cover:hover{
+  background-color: #950740;
+
 }
+
+/* .offcanvas-body{
+  background-color: transparent !important; 
+} */
+
+
+/* .text-bg-dark {
+  color: #fff!important;
+  background-color: rgba(0, 0, 0, 0.3)!important;
+  backdrop-filter: blur(20px);
+} */
+
+
 main hr{
     border: 0;
     background-color: #9c97f1;
@@ -122,6 +152,13 @@ main hr{
    nav {
     flex-direction:column ;
    }
+
+   .text-bg-dark {
+    color: #fff!important;
+    background-color: rgba(0, 0, 0, 0.3)!important;
+    backdrop-filter: blur(20px);
+    height: 5000px;
+  }
   .secondSection .box {
       width: 50vw;
   }
@@ -206,9 +243,20 @@ main hr{
     object-fit: contain;
     object-position: center;
   }
+  
   #offcanvasDarkNavbar{
       width: 70%;
+      
+      /* backdrop-filter: blur(3px); */
   }
+
+  .text-bg-dark {
+    color: #fff!important;
+    background-color: rgba(0, 0, 0, 0.3)!important;
+    backdrop-filter: blur(20px);
+    height: 5000px;
+  }
+  
   #btn-contect{
     margin-top: 12px;
   }
