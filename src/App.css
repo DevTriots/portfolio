@@ -7,7 +7,7 @@
 body{
   margin: 0%;
   padding: 0%;
-  background-color: rgb(0,0,33);
+  background-color: rgb(0,0,0);
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -18,11 +18,11 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 80px;
-  background-color: rgba(0,0,0,0.3) ;
+  background: transparent  ; 
+  backdrop-filter: blur(5px);
   
   
 }
-
 
 .logoImage {
   width: 50px;
@@ -45,31 +45,40 @@ nav ul li a{
 nav ul li .link-cover{
   display: flex;
   justify-content: center;
-  width: 80px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  font-family: 'Tektur', sans-serif;
-  font-size: 1.3rem;
+  width: fit-content;
   
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 20px;
   transition: background-color 0.3s ease;
   
 } 
+
+
 
  nav ul li .link-cover:hover{
   background-color: #950740;
 
 }
 
+nav ul li .link-cover .nan-link{
+  font-size: 25px;
+  
+}
+
+
 /* .offcanvas-body{
   background-color: transparent !important; 
 } */
 
 
-/* .text-bg-dark {
+.text-bg-dark {
   color: #fff!important;
-  background-color: rgba(0, 0, 0, 0.3)!important;
-  backdrop-filter: blur(20px);
-} */
+  background-color: rgba(0, 0, 0, 0.6)!important;
+  backdrop-filter: blur(20px) !important;
+  height: 5000px;
+}
 
 
 main hr{
@@ -79,6 +88,10 @@ main hr{
     margin: 60px 84px;
 }
 
+.home-container{
+  background-color: black;
+}
+
 .left{
   font-size: 1.5rem;
 }
@@ -86,6 +99,7 @@ main hr{
   display: flex;
   justify-content: space-around;
   margin: 130px 0;
+  background-color: black;
 }
 .firstSection > div{
   width: 30%;
@@ -137,6 +151,10 @@ main hr{
   color: rgb(29,185,237);
  }
 
+ footer{
+   position: fixed;
+ }
+
 
 @media screen and (max-width: 1000px) {
   .box{
@@ -153,12 +171,12 @@ main hr{
     flex-direction:column ;
    }
 
-   .text-bg-dark {
+   /* .text-bg-dark {
     color: #fff!important;
     background-color: rgba(0, 0, 0, 0.3)!important;
     backdrop-filter: blur(20px);
     height: 5000px;
-  }
+  } */
   .secondSection .box {
       width: 50vw;
   }
@@ -245,17 +263,17 @@ main hr{
   }
   
   #offcanvasDarkNavbar{
-      width: 70%;
+      width: 50%;
       
       /* backdrop-filter: blur(3px); */
   }
 
-  .text-bg-dark {
+  /* .text-bg-dark {
     color: #fff!important;
-    background-color: rgba(0, 0, 0, 0.3)!important;
-    backdrop-filter: blur(20px);
+    background-color:rgba(0, 0, 0, 0.9) !important;
+    backdrop-filter: blur(10px) !important; 
     height: 5000px;
-  }
+  } */
   
   #btn-contect{
     margin-top: 12px;
