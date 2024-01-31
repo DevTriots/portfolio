@@ -9,7 +9,7 @@ import Footer from './footer';
 export class Home extends Component {
   render() {
     return (
-      <div>
+      <div className='home-container'>
         <div className='intro10' id="intro1">
         <section className="firstSection">
            <div className="leftSection">
@@ -30,11 +30,11 @@ export class Home extends Component {
         </section>
         </div>
          <div className='intro0' id="intro">
-        <section className="firstSection">
-           <div className="leftSection" id="INTRODUCE">
+            <section className="firstSection">
+            <div className="leftSection" id="INTRODUCE">
             <h1>LET ME<span> INTRODUCE</span> MYSELF</h1>
             <h3> <p> Hi, my name is <span>Pushpendra Pal</span> I'm from <span>Orai Uttar Pradesh,India</span>.
-           <br />
+            <br />
             <br /> I recently graduated with a <span>Bachelor  of Technology</span> in Computer Science & Engineering  from 
            <span>University Institute of Technology, RGPV, Bhopal</span>.
            <br /><br />As a <span>Full-Stack</span> 
