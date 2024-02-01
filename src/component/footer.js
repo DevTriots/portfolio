@@ -1,27 +1,48 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import git from "./git.png";
+import insta from "./insta.png";
+import mail from "./mail.png";
+import link from "./link.png";
 
-// import logoImage1 from "./linkedin.png";
-// import logoImage2 from "./github1.png";
-// import logoImage3 from "./instagram.png";
-import logoImage4 from "./gmail.png";
-import logoImage5 from "./call.png";
 
 function Footer() {
+  const[date , setDate] = useState();
+    useEffect(()=>{
+        setDate(()=>{
+            return new Date().getFullYear();
+        })
+    },[])
+    const handleGmail = ()=>{
+      const recipientEmail='devTriots@gmail.com';
+      const subject = 'Subject of the email';
+      const body = 'Body of the email';
+      const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoLink;
+  }
+  
   return (
-    <footer>
-      <div className="row" id="footerbox">
-        <div className=" box md-4" id="footerbox1">
-          <span>Dedicated to creating impactful solutions</span>
+    
+    <div className='footerbox' id="footerbox">
+        <div className=" footerbox1" >
+          <span>Designed and Developed by <span style={{color:'#c3073f'}}>DevTriots</span></span>
         </div>
-        <div className=" box md-4" id="footerbox2">
-          <span>&copy; 2023 Pushpendra's Portfolio</span>
+        <div className=" footerbox2" >
+          <span> copyright @ {date} </span>
         </div>
-        <div className=" box md-4" id="footerbox3">
-          <span > <img className='mx-1 my-1' src={logoImage5} alt="LinkedIn" />+91 8871813661 <br /> <img className='mx-1' src={logoImage4} alt="LinkedIn" />pushpendrapal2100@gmail.com </span>
+        <div  className="footerbox3">
+                <p><img src={git} alt="github" onClick={()=>{
+                                window.open('https://github.com/dhananjay1002000')
+                            }}/></p>
+                <p><img src={insta} alt="whatsapp"  className='tooltip-trigger' />
+                </p>
+                <p><img src={link} alt="linkdin" onClick={()=>{
+                                window.open('https://www.linkedin.com/in/dhananjay-meshram-a87487214/')
+                            }} /></p>
+                <p><img src={mail} alt="gmail" onClick={handleGmail}  /></p>
         </div>
-      </div>
-    </footer>
+    </div>
+    
   );
 }
 

@@ -38,7 +38,7 @@ export class Skill extends Component {
         <img src={logoImage7} className="card-img-top1" alt="..."></img>
         
       </div>
-        <Footer />
+        
       </div>
 
 

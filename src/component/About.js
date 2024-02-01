@@ -1,6 +1,6 @@
 // import React, { Component } from "react";
 import Footer from "./footer";
-const About=()=> {
+ const About=()=> {
 
     return (
       <>
@@ -72,7 +72,7 @@ const About=()=> {
         
         </div>
       </div>
-        <Footer />
+        
         </>
     );
   }
