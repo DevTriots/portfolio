@@ -40,12 +40,7 @@ const Navbar = () => {
                     </div>
                   
                   </li>
-                  <li class="nav-item">
-                    <div className="link-cover">
-                      <Link className="nav-link" aria-current="page" to="/contact">Contact</Link>
-                    </div>
                   
-                  </li>
                   <li class="nav-item">
                     <div className="link-cover">
                       <Link className="nav-link " aria-current="page" to="/skill">Skill</Link>

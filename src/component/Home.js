@@ -14,39 +14,8 @@ export class Home extends Component {
           <section className="firstSection">
             <div className="leftSection">
               <h1 className="auto-type">
-                Hi, We are <br /> <span  color='#C3073F'> DevTriots</span>
+                Hi, We are <br /> <span  style={{color: '#c3073f'}}> DevTriots</span>
               </h1>
-              <h5>
-                Meet our dynamic team of three passionate developers with a rich
-                background in multinational corporations (MNCs) and a proven
-                track record of delivering successful projects for diverse
-                clients. Drawing on our extensive expertise, we specialize in a
-                comprehensive array of technologies to bring your visions to
-                life.
-                <br />
-                <br />
-                Our skill set spans the entire web development stack, including
-                proficiency in HTML, CSS, JavaScript, Node.js, React.js,
-                Express.js, MongoDB, and Postgres. With a keen eye for design
-                and user experience, we excel in crafting visually appealing and
-                intuitively functional interfaces.
-                <br />
-                <br />
-                Beyond the web, we are well-versed in Java and Spring Boot for
-                robust backend development, coupled with SQL for efficient
-                database management. Our commitment to collaboration and version
-                control is evident in our adept use of Git and GitHub.
-                <br />
-                <br />
-                With a combined wealth of experience from MNCs, we bring a
-                disciplined and structured approach to project management,
-                ensuring timely delivery and exceeding client expectations.
-                Whether it's creating sleek user interfaces or building scalable
-                backend solutions, our team is geared to tackle diverse
-                challenges.
-              </h5>
-              {/* <h1>I am passionate</h1> */}
-              {/* <div> web developer</div> */}
               <span id="element"></span>
               <div class="dropdown">
                 <button
@@ -96,7 +65,7 @@ export class Home extends Component {
             </div>
           </section>
         </div>
-        <div className="intro0" id="intro">
+        {/* <div className="intro0" id="intro">
           <section className="firstSection">
             <div className="leftSection" id="INTRODUCE">
               <h1>
@@ -132,7 +101,7 @@ export class Home extends Component {
               <img src={logoImage} alt="" />
             </div>
           </section>
-        </div>
+        </div> */}
         <Footer />
       </div>
     );
