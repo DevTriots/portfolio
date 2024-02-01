@@ -9,8 +9,8 @@ export class Home extends Component {
 
   render() {
     return (
-      <div>
-        <div className="intro10" id="intro1">
+      <div className='home-container'>
+         <div className="intro10" id="intro1">
           <section className="firstSection">
             <div className="leftSection">
               <h1 className="auto-type">
@@ -65,43 +65,6 @@ export class Home extends Component {
             </div>
           </section>
         </div>
-        {/* <div className="intro0" id="intro">
-          <section className="firstSection">
-            <div className="leftSection" id="INTRODUCE">
-              <h1>
-                LET ME<span> INTRODUCE</span> MYSELF
-              </h1>
-              <h3>
-                {" "}
-                <p>
-                  {" "}
-                  Hi, my name is <span>Pushpendra Pal</span> I'm from{" "}
-                  <span>Orai Uttar Pradesh,India</span>.
-                  <br />
-                  <br /> I recently graduated with a{" "}
-                  <span>Bachelor of Technology</span> in Computer Science &
-                  Engineering from
-                  <span>University Institute of Technology, RGPV, Bhopal</span>.
-                  <br />
-                  <br />
-                  As a <span>Full-Stack</span>
-                  developer, i enjoy tackling new challenges and continuously
-                  expanding my skillset. <br />I have done project{" "}
-                  <span>Texttweater , NewsMonkey</span> using Html,Css,Js
-                  ,React.
-                  <br />
-                  <br /> I am also interested in building new{" "}
-                  <span>Web Technology and Products</span> as well as exploring
-                  areas related to <span>Software Development</span>.
-                </p>
-              </h3>
-              <span id="element"></span>
-            </div>
-            <div className="rightSection">
-              <img src={logoImage} alt="" />
-            </div>
-          </section>
-        </div> */}
         <Footer />
       </div>
     );
