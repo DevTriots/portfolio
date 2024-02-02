@@ -17,10 +17,9 @@ function App() {
     <div>
       <Router>
       <Navbar />
-      <Footer />
+     
       <Routes>
-        {/* <Route element={<Navbar />} />
-        <Route element={<Footer />} /> */}
+        <Route element={<Footer />} /> 
         <Route exact path="/home" element={<Home />}/>
         <Route exact path="/about" element={<About />}/>
         <Route exact path="/project" element={<Project />}/>

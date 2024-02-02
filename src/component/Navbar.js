@@ -47,9 +47,6 @@ const Navbar = () => {
     <a className="social-media mx-1" href="https://www.instagram.com/pushpendra.pal.54772/" target="_blank" rel="noopener noreferrer">
         <img src={logoImage3} alt=""/>
     </a>
-    <Link className="btn btn-primary mx-1" to="/contact" onClick={() => console.log('connect')}>
-        <span>Let's Connect</span>
-    </Link> 
 </div>
 
             </span>
