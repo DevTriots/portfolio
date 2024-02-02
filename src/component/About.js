@@ -1,81 +1,96 @@
 // import React, { Component } from "react";
 import Footer from "./footer";
-const About=()=> {
+import Dhanno from "./Dhanno.jpeg";
 
-    return (
-      <>
-      <div id="aboutpush" > 
-         <div className="mainline" id="centerAbout">
-        <h2>AboutMe</h2>
-        <p>
-          Hello, I'm <span>Pushpendra Pal</span>, a passionate web developer with a strong
-          foundation in various<br></br> technologies. I'm constantly working on exciting
-          projects and honing my skills to create <br></br>innovative solutions. Here's a
-          glimpse of my journey:
-        </p>
-        <h2> Education</h2>
-        <p>
-          - Bachelor of Technology in Computer Science & Engineering, <br />
-          from (University Institute of Technology, RGPV, Bhopal (2023))
-          <br />
-          - Senior Secondary, Radha Krishna I C Binora Vidya Jalaun, UP Board
-          (2018)
-          <br />- Class 10, S.R Inter College Orai, UP Board (2016)
-        </p>
-        <h2> Projects</h2>
-        <h4>News Monkey</h4>
-        <p>
-          - Duration:** October 2022 - December 2022
-          <br />
-          - Designed and developed a dynamic and user-friendly news aggregator
-          application that provides curated and up-to-date news content from a
-          diverse range of reputable sources.
-          <br />- Technology Stack: HTML, JavaScript, CSS, React.js
-        </p>
-        <h4> TextTweaker</h4>
-        <p>
-          - Duration: August 2023 - Present
-          <br />
-          - Welcome to TextTweaker, the all-in-one solution for manipulating and
-          optimizing your text! Whether you're a writer, editor, or just someone
-          who loves playing with words, TextTweaker is here to streamline your
-          text processing tasks.
-          <br />- Technology Stack:** HTML, JavaScript, CSS, React.js
-        </p>
-        <h2> Skills</h2>
-        <p>
-          - Programming Languages: C, C++, JavaScript
-          <br />
-          - Web Development: HTML, CSS, React.js, Node.js
-          <br />- Database Management: MySQL, MongoDB
-        </p>
-        <h2> Achievements</h2>
-        <p>
-          - Volunteer at the 34th MP Young Scientist Conference.
-          <br />
-          - Participated in a Robotics workshop conducted by team EmbedVISION at
-          UIT RGPV, Bhopal, on behalf of TECHFEST IIT Bombay.
-          <br />- 2nd position in district in running competition. - 1st
-          position in kabaddi tournament at Mahasangram - sportsfest of UIT
-          RGPV.
-        </p>
-        <h2> Contact</h2>
-        - Email: pushpendrapal2100@gmail.com
-        <br />- Phone:8871813661<br />
-        LinkedIn - https://www.linkedin.com/in/pushpendra-pal-9628ab214
-        <h2> Hobbies</h2>
-        <p>
-          - Web Designing
-          <br />- Cricket, Music, Learning
-        </p>
-        
-        
+const About = () => {
+  return (
+    <>
+      <div id="aboutpush">
+        <div className="mainline" id="centerAbout">
+          <h2 style={{color: '#c3073f'}}>About Us</h2>
+          <p>
+            Meet our dynamic team of three passionate developers with a rich
+            background in multinational corporations (MNCs) and a proven track
+            record of delivering successful projects for diverse clients.
+            Drawing on our extensive expertise, we specialize in a comprehensive
+            array of technologies to bring your visions to life.
+            <br />
+            <br />
+            Our skill set spans the entire web development stack, including
+            proficiency in HTML, CSS, JavaScript, Node.js, React.js, Express.js,
+            MongoDB, and Postgres. With a keen eye for design and user
+            experience, we excel in crafting visually appealing and intuitively
+            functional interfaces.
+            <br />
+            <br />
+            Beyond the web, we are well-versed in Java and Spring Boot for
+            robust backend development, coupled with SQL for efficient database
+            management. Our commitment to collaboration and version control is
+            evident in our adept use of Git and GitHub.
+            <br />
+            <br />
+            With a combined wealth of experience from MNCs, we bring a
+            disciplined and structured approach to project management, ensuring
+            timely delivery and exceeding client expectations. Whether it's
+            creating sleek user interfaces or building scalable backend
+            solutions, our team is geared to tackle diverse challenges.
+          </p>
+
+          <div class="container">
+            <h4>About Developers</h4>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline9">
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <div class="circle"><span><img></img></span></div>
+                                <div class="content">
+                                    <span class="year">Pushpendra Pal</span>
+                                    <h4 class="title">Fullstack Developer</h4>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. Vivamus posuere nisi quis tortor interdum, in finibus risus convallis. Suspendisse efficitur lacus a nulla commodo, sit amet vestibulum nibh.
+                                    </p>
+                                    <div class="icon"><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <div class="circle"><span><img src={Dhanno}></img></span></div>
+                                <div class="content">
+                                    <span class="year">Dhananjay Meshram</span>
+                                    <h4 class="title">Fullstack Developer</h4>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. Vivamus posuere nisi quis tortor interdum, in finibus risus convallis. Suspendisse efficitur lacus a nulla commodo, sit amet vestibulum nibh.
+                                    </p>
+                                    <div class="icon"><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <div class="circle"><span><img></img></span></div>
+                                <div class="content">
+                                    <span class="year">Sandeep Shiven</span>
+                                    <h4 class="title">Backend Developer</h4>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. Vivamus posuere nisi quis tortor interdum, in finibus risus convallis. Suspendisse efficitur lacus a nulla commodo, sit amet vestibulum nibh.
+                                    </p>
+                                    <div class="icon"><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+          
         </div>
       </div>
-        <Footer />
-        </>
-    );
-  }
-
+      <Footer />
+    </>
+  );
+};
 
 export default About;
