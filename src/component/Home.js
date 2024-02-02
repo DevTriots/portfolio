@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect, useState } from 'react';
 // import { Link } from 'react-router-dom';
-import bgImage from './bg.png';
+import bgImage from "./bg.png";
 import logoImage from "./soft.jpg";
 import Footer from './footer';
 import {useTypewriter} from 'react-simple-typewriter' 
@@ -93,4 +93,4 @@ function Home() {
   }
 
 
-export default Home
+export default Home;
