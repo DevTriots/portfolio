@@ -6,6 +6,7 @@ import Project from './component/Project';
 import Home from './component/Home';
 import Skill from './component/Skill';
 import Footer from './component/footer';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,10 +14,10 @@ import {
 } from "react-router-dom";
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Router>
       <Navbar />
-      <Footer />
+      
       <Routes>
         {/* <Route element={<Navbar />} />
         <Route element={<Footer />} /> */}
@@ -26,8 +27,11 @@ function App() {
         <Route exact path="/skill" element={<Skill />}/>
         <Route exact path="/" element={<Home />}/>
       </Routes>
+      <Footer />
       </Router>
+      
     </div>
+    
   );
 }
 

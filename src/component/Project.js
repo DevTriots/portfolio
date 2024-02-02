@@ -139,7 +139,7 @@ export class Project extends Component {
          </div>
          </div>
          </div>
-      <Footer />
+      
       </div>
       </>
     );
