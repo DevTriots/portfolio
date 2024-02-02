@@ -18,13 +18,14 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
- 
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ],
-    "ignorePatterns":["**/component/**.js"]
+    "ignorePatterns": [
+      "**/component/**.js"
+    ]
   },
   "browserslist": {
     "production": [
@@ -38,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://devtriots.github.io"
+  "homepage": "https://devtriots.github.io/portfolio"
 }
