@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4a2e3ab.css",
-    "main.js": "/static/js/main.53f80396.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/soft.jpg": "/static/media/soft.830851674489f1fb9abd.jpg",
-    "static/media/bg.png": "/static/media/bg.c4671bb0c14be4945ade.png",
-    "static/media/app-image.png": "/static/media/app-image.5cdaeb377653f9799800.png",
-    "static/media/Dhanno.jpeg": "/static/media/Dhanno.a32223e0162c830d2ccb.jpeg",
-    "static/media/Two-Goog-co.png": "/static/media/Two-Goog-co.d50e63ddde8615e32737.png",
-    "static/media/spotify.png": "/static/media/spotify.b07cc78fc07ed8ff3791.png",
-    "static/media/Screentexttwiter.png": "/static/media/Screentexttwiter.739b6fb48f0d74a10fc7.png",
-    "static/media/codingActivity1.png": "/static/media/codingActivity1.d2de0ab5e01b4c78c5d0.png",
-    "static/media/iNotebook.png": "/static/media/iNotebook.50770355c7f6300e7117.png",
-    "static/media/devTroits_logo.jpg": "/static/media/devTroits_logo.5610411c6d9eb2e3019e.jpg",
-    "index.html": "/index.html",
-    "main.e4a2e3ab.css.map": "/static/css/main.e4a2e3ab.css.map",
-    "main.53f80396.js.map": "/static/js/main.53f80396.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.e4a2e3ab.css",
+    "main.js": "/portfolio/static/js/main.de2e4918.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/soft.jpg": "/portfolio/static/media/soft.830851674489f1fb9abd.jpg",
+    "static/media/bg.png": "/portfolio/static/media/bg.c4671bb0c14be4945ade.png",
+    "static/media/app-image.png": "/portfolio/static/media/app-image.5cdaeb377653f9799800.png",
+    "static/media/Dhanno.jpeg": "/portfolio/static/media/Dhanno.a32223e0162c830d2ccb.jpeg",
+    "static/media/Two-Goog-co.png": "/portfolio/static/media/Two-Goog-co.d50e63ddde8615e32737.png",
+    "static/media/spotify.png": "/portfolio/static/media/spotify.b07cc78fc07ed8ff3791.png",
+    "static/media/Screentexttwiter.png": "/portfolio/static/media/Screentexttwiter.739b6fb48f0d74a10fc7.png",
+    "static/media/codingActivity1.png": "/portfolio/static/media/codingActivity1.d2de0ab5e01b4c78c5d0.png",
+    "static/media/iNotebook.png": "/portfolio/static/media/iNotebook.50770355c7f6300e7117.png",
+    "static/media/devTroits_logo.jpg": "/portfolio/static/media/devTroits_logo.5610411c6d9eb2e3019e.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.e4a2e3ab.css.map": "/portfolio/static/css/main.e4a2e3ab.css.map",
+    "main.de2e4918.js.map": "/portfolio/static/js/main.de2e4918.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4a2e3ab.css",
-    "static/js/main.53f80396.js"
+    "static/js/main.de2e4918.js"
   ]
 }
