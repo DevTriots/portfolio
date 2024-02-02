@@ -48,7 +48,7 @@ const About = () => {
                                     <span class="year">Pushpendra Pal</span>
                                     <h4 class="title">Fullstack Developer</h4>
                                     <p class="description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. Vivamus posuere nisi quis tortor interdum, in finibus risus convallis. Suspendisse efficitur lacus a nulla commodo, sit amet vestibulum nibh.
+                                    Hi, I'm Pushpendra, and I hold a Bachelor's degree in Computer Science. My expertise covers a wide range of programming languages and technologies, including React, C, C++, JavaScript, HTML, CSS, MongoDB, Node.js, and Express.js. I am particularly enthusiastic about full-stack development, where I can leverage my skills in both front-end and back-end technologies.
                                     </p>
                                     <div class="icon"><span></span></div>
                                 </div>
