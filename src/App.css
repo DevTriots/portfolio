@@ -972,7 +972,7 @@ about us time line */
 .main-timeline9 .circle,.main-timeline9 .timeline:nth-child(2n) .circle{width:130px;height:130px;float:none;margin:0 auto}
 .main-timeline9 .timeline-content:before{width:99.5%;top:68px;left:.5%}
 .main-timeline9 .circle span{line-height:115px;font-size:60px}
-.main-timeline9 .circle span:after,.main-timeline9 .circle span:before,.main-timeline9 .circle:before,.main-timeline9 .icon{margin-right: 68vw; margin-bottom: 5vh;}
+.main-timeline9 .circle span:after,.main-timeline9 .circle span:before,.main-timeline9 .circle:before,.main-timeline9 .icon{margin-right: 68vw; margin-top: -2.8vh;}
 .main-timeline9 .content,.main-timeline9 .timeline:nth-child(2n) .content{padding:0 10px}
 .main-timeline9 .year{margin-bottom:15px}
 .main-timeline9 .description{text-align:center}
