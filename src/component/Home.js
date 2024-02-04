@@ -8,7 +8,7 @@ import down from "./arrow-2.png";
 
 function Home() {
   const [typeEffect] = useTypewriter({
-    words: [" MERN Stack Developer", "Engineer", "and a Designer"],
+    words: [" Full Stack Developers", "Engineers", "and Designers"],
     loop: {},
     typeSpeed: 120,
     deleteSpeed: 80,
