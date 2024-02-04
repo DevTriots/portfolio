@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9853f7a9.css",
-    "main.js": "/portfolio/static/js/main.2954b763.js",
+    "main.css": "/portfolio/static/css/main.5600b4f1.css",
+    "main.js": "/portfolio/static/js/main.a52b601c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/soft.jpg": "/portfolio/static/media/soft.830851674489f1fb9abd.jpg",
+    "static/media/NewsMonkey2.png": "/portfolio/static/media/NewsMonkey2.bb51c55e7fa5bff46e49.png",
+    "static/media/spodify2.png": "/portfolio/static/media/spodify2.dd1c159d9ffe4d842c68.png",
+    "static/media/TwoGood-co2.png": "/portfolio/static/media/TwoGood-co2.d3335a5f3e3b38431ea6.png",
     "static/media/bg.png": "/portfolio/static/media/bg.c4671bb0c14be4945ade.png",
-    "static/media/app-image.png": "/portfolio/static/media/app-image.5cdaeb377653f9799800.png",
-    "static/media/Two-Goog-co.png": "/portfolio/static/media/Two-Goog-co.d50e63ddde8615e32737.png",
     "static/media/Dhanno.jpeg": "/portfolio/static/media/Dhanno.4e9fdc31d30cb633febb.jpeg",
     "static/media/Sandeep.jpeg": "/portfolio/static/media/Sandeep.619343a84c54497781a6.jpeg",
-    "static/media/spotify.png": "/portfolio/static/media/spotify.b07cc78fc07ed8ff3791.png",
+    "static/media/Textutilles2.png": "/portfolio/static/media/Textutilles2.dc383d39647893a0ad00.png",
+    "static/media/Keeper2.png": "/portfolio/static/media/Keeper2.33e140ad50d3abd0b5b1.png",
+    "static/media/Todo-List2.png": "/portfolio/static/media/Todo-List2.6a871a492956f61d0c38.png",
+    "static/media/iNotebook2.png": "/portfolio/static/media/iNotebook2.7feb18e18ce7908c9915.png",
     "static/media/postgresql_icon.png": "/portfolio/static/media/postgresql_icon.a75df6804fb7dc942440.png",
     "static/media/react_icon.png": "/portfolio/static/media/react_icon.537299d47a8993ed5ca8.png",
     "static/media/atom_icon.png": "/portfolio/static/media/atom_icon.7e58f34114dbbfe5202c.png",
     "static/media/git.png": "/portfolio/static/media/git.fc54861fb6e4a1f39d1d.png",
     "static/media/express-js.png": "/portfolio/static/media/express-js.bfacc444e9826ff421ba.png",
     "static/media/pussy.jpeg": "/portfolio/static/media/pussy.1259ea5cc48608ca9c65.jpeg",
-    "static/media/Screentexttwiter.png": "/portfolio/static/media/Screentexttwiter.739b6fb48f0d74a10fc7.png",
     "static/media/java_icon.png": "/portfolio/static/media/java_icon.f7f9fe6f5697f56e2a27.png",
     "static/media/link.png": "/portfolio/static/media/link.49cad0b98cabb1dcaaef.png",
     "static/media/aws_icon.png": "/portfolio/static/media/aws_icon.9e92f24deaf122a1df2f.png",
@@ -28,7 +31,6 @@
     "static/media/html_icon.png": "/portfolio/static/media/html_icon.e633116b8a47f23a49bc.png",
     "static/media/slack_icon.png": "/portfolio/static/media/slack_icon.66b33c08303bc9a90b81.png",
     "static/media/vs code.png": "/portfolio/static/media/vs code.1259afb7e4191e62b3dc.png",
-    "static/media/iNotebook.png": "/portfolio/static/media/iNotebook.50770355c7f6300e7117.png",
     "static/media/c-icon.png": "/portfolio/static/media/c-icon.b376efc2f2294e0cd801.png",
     "static/media/devTroits_logo.jpg": "/portfolio/static/media/devTroits_logo.5610411c6d9eb2e3019e.jpg",
     "static/media/javascript_icon.png": "/portfolio/static/media/javascript_icon.54a468bc61ef1dc88a3c.png",
@@ -36,12 +38,12 @@
     "static/media/c_plus_icon.png": "/portfolio/static/media/c_plus_icon.6ad7d63982e9cc0b5ad8.png",
     "static/media/mail.png": "/portfolio/static/media/mail.51fac587543863c1ea51.png",
     "index.html": "/portfolio/index.html",
-    "main.9853f7a9.css.map": "/portfolio/static/css/main.9853f7a9.css.map",
-    "main.2954b763.js.map": "/portfolio/static/js/main.2954b763.js.map",
+    "main.5600b4f1.css.map": "/portfolio/static/css/main.5600b4f1.css.map",
+    "main.a52b601c.js.map": "/portfolio/static/js/main.a52b601c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9853f7a9.css",
-    "static/js/main.2954b763.js"
+    "static/css/main.5600b4f1.css",
+    "static/js/main.a52b601c.js"
   ]
 }
