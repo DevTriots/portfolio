@@ -147,7 +147,7 @@ export class Skill extends Component {
         </div>
         </div>
       </div>
-        <Footer />
+        
       </div>
       </>
     )

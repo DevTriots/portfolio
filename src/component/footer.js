@@ -1,44 +1,48 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import git from "./git.png";
+import insta from "./insta.png";
+import mail from "./mail.png";
+import link from "./link.png";
 
-import logoImage1 from "./media/linkedin (2).png";
-import logoImage2 from "./media/github (3).png";
-import logoImage3 from "./media/instagram_icon.png";
-import logoImage4 from "./media/mail.png";
-import logoImage5 from "./media/whatsapp.png";
 
 function Footer() {
+  const[date , setDate] = useState();
+    useEffect(()=>{
+        setDate(()=>{
+            return new Date().getFullYear();
+        })
+    },[])
+    const handleGmail = ()=>{
+      const recipientEmail='devTriots@gmail.com';
+      const subject = 'Subject of the email';
+      const body = 'Body of the email';
+      const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoLink;
+  }
+  
   return (
-    <footer>
-      <div className="row footrow" id="footerbox">
-        <div className=" box md-4" id="footerbox1">
-          <span>Dedicated to creating impactful solutions</span>
+    
+    <div className='footerbox' id="footerbox">
+        <div className=" footerbox1" >
+          <span>Designed and Developed by <span style={{color:'#c3073f'}}>DevTriots</span></span>
         </div>
-        <div className=" box md-4" id="footerbox2">
-          <span>&copy; 2024 Devtriots Portfolio</span>
+        <div className=" footerbox2" >
+          <span> copyright @ {date} </span>
         </div>
-        <div className=" box md-4" id="footerbox3">
-          <div className="social">
-         <a className="social-media mx-1" href="https://www.linkedin.com/in/pushpendra-pal-9628ab214/" target="_blank" rel="noopener noreferrer">
-        <img src={logoImage1} alt="" />
-        </a>
-       <a className="social-media mx-1" href="https://github.com/pushpendra0809" target="_blank" rel="noopener noreferrer">
-        <img src={logoImage2} alt=""/>
-       </a>
-        <a className="social-media mx-1" href="https://www.instagram.com/pushpendra.pal.54772/" target="_blank" rel="noopener noreferrer">
-        <img src={logoImage3} alt=""/>
-        </a>
-        <a className="social-media mx-1" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" rel="noopener noreferrer">
-        <img src={logoImage4} alt=""/>
-        </a>
-        <span className="social-media mx-1" href="/" target="_blank" rel="noopener noreferrer">
-        <img src={logoImage5} alt=""/>
-        <div className="whatApp">887181361</div>
-        </span>
-     </div>  
+        <div  className="footerbox3">
+                <p><img src={git} alt="github" onClick={()=>{
+                                window.open('https://github.com/dhananjay1002000')
+                            }}/></p>
+                <p><img src={insta} alt="whatsapp"  className='tooltip-trigger' />
+                </p>
+                <p><img src={link} alt="linkdin" onClick={()=>{
+                                window.open('https://www.linkedin.com/in/dhananjay-meshram-a87487214/')
+                            }} /></p>
+                <p><img src={mail} alt="gmail" onClick={handleGmail}  /></p>
         </div>
-      </div>
-    </footer>
+    </div>
+    
   );
 }
 

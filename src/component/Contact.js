@@ -1,5 +1,5 @@
 import React, {  useState } from "react";
-import Footer from "./footer";
+
 const Contact=()=> {
  const[data, setData] = useState({name:"", email:"", phone:"", message:""});
 
@@ -28,10 +28,11 @@ const handleChange=(e)=>{
         <button type="submit">send</button>
         {/* <p> {data.name}, {data.email}, {data.phone}, {data.message}</p> */}
       </form>
-      <Footer />
+      
       </div>
     )
 }
 
 export default Contact;
+
 
