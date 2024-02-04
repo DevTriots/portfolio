@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import logoImage from "./Screentexttwiter.png";
-import logoImage1 from "./app-image.png";
-import logoImage2 from "./spotify.png";
-import logoImage3 from "./Two-Goog-co.png";
-import logoImage4 from "./iNotebook.png";
-import logoImage5 from "./media/todolist2.png";
-import logoImage6 from "./media/keeperApp.png";
-import Footer from "./footer";
+import logoImage from "./media/Textutilles2.png";
+import logoImage1 from "./media/NewsMonkey2.png";
+import logoImage2 from "./media/spodify2.png";
+import logoImage3 from "./media/TwoGood-co2.png";
+import logoImage4 from "./media/iNotebook2.png";
+import logoImage5 from "./media/Todo-List2.png";
+import logoImage6 from "./media/Keeper2.png";
 export class Project extends Component {
   render() {
     return (
@@ -15,7 +14,7 @@ export class Project extends Component {
           <div className="cantent-wrap" id="cantent-wrap1">
             <div className="container1 ">
               <h2>
-                My<span>Project</span>
+                Our<span>Project</span>
               </h2>
             </div>
             <div className="container2" id="container12">
@@ -343,7 +342,6 @@ export class Project extends Component {
               </div>
             </div>
           </div>
-          <Footer />
         </div>
       </>
     );

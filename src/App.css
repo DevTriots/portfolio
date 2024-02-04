@@ -687,6 +687,9 @@ animation: rotateCube 10s infinite linear;
     align-items: center;
     display: flex;
   }
+  #number2 #iteam12{
+    margin: 40px;
+  }
 
   #iteam12 p {
     font-size: 1.8vw;
@@ -725,7 +728,6 @@ animation: rotateCube 10s infinite linear;
     margin-bottom: 35%;
   }
 
-  
   #skill12{
       margin-top: 35%;
       margin-bottom: 93%;
@@ -739,6 +741,30 @@ animation: rotateCube 10s infinite linear;
   .firstsection-2 .leftSection h1{
     font-size: 5vw;
   }
+  #footerbox{
+    display: block;
+  }
+  #footerbox .footerbox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    width: 100%;
+  }
+  #footerbox .footerbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    width: 100%;
+  }
+  #footerbox .footerbox3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    width: 100%;
+  }
 }
 
  .container1
@@ -750,7 +776,7 @@ animation: rotateCube 10s infinite linear;
       margin-bottom: 0%;
 }
 .container1 span {
-  color: rgb(29, 185, 237);
+  color:#C3073F;
 }
 .container1 h2 {
   /* margin-top: 5px; */
