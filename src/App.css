@@ -688,9 +688,12 @@ animation: rotateCube 10s infinite linear;
     display: flex;
   }
   #number2 #iteam12{
-    margin: 40px;
+    margin: 30px;
   }
 
+  #iteam12 .proButton a{
+    width: 23vw;
+  }
   #iteam12 p {
     font-size: 1.8vw;
     padding: 3%;
