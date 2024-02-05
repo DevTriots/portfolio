@@ -14,11 +14,10 @@ import arrow from "./arrow.png"
 
 function Home() {
   const [typeEffect] = useTypewriter ({
-    words:[' MERN Stack Developers','Engineers','and  Designers'],
+    words:[' Full Stack Developers','Engineers','and  Designers'],
     loop:{},
     typeSpeed:120,
     deleteSpeed:80
-    
 })
 const handleGmail = ()=>{
   const recipientEmail='devtriots@gmail.com';

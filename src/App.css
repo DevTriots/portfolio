@@ -434,59 +434,6 @@ animation: rotateCube 10s infinite linear;
 }
 
 
- .footerbox{
-  width: 100%;
-  display: flex;
-  margin-top: auto;
-  margin-top: 20px; 
-  background-color: black;
-  justify-content: space-around;
-  align-items: center;
-  height: 100px;
- }
- 
-.footerbox1{
-  display: flex;
-  width: 33.33%;
-  justify-content: center;
-  align-items: center;
-}
-/* #footerbox1{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-.footerbox2{
-  width: 33.33%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footerbox3{
-  width: 33.33%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  
-}
-
-.footerbox .footerbox3  p  img{
-  
-  height: 30px;
-  width: 30px;
-}
-
-.footerbox .footerbox1 span,
-.footerbox .footerbox2 span{
-  color: white;
-}
-
-.footerbox1 p,
-.footerbox2 p{
-  font-size: 2vw;
-}
-
 
 
 @media screen and (max-width: 1000px) {
@@ -875,6 +822,32 @@ width: 40px;
   #iteam12 .cardImage{
     height: 27vh;
   }
+  #footerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #footerbox .footerbox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  #footerbox .footerbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+  }
+  #footerbox .footerbox3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: 100%;
+  }  
 
 .footerbox3{
   width: 100%;
