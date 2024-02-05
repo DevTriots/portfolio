@@ -1,6 +1,8 @@
 // import React, { Component } from "react";
 import Footer from "./footer";
 import Dhanno from "./Dhanno.jpeg";
+import Pussy from "./pussy.jpeg";
+import Sandeep from "./Sandeep.jpeg";
 
 const About = () => {
   return (
@@ -43,15 +45,15 @@ const About = () => {
                     <div class="main-timeline9">
                         <div class="timeline">
                             <div class="timeline-content">
-                                <div class="circle"><span><img></img></span></div>
+                                <div class="circle"><span><img src={Pussy}></img></span></div>
                                 <div class="content">
                                     <span class="year">Pushpendra Pal</span>
                                     <h4 class="title">Fullstack Developer</h4>
                                     <p class="description">
                                     Hi, I'm Pushpendra, and I hold a Bachelor's degree in Computer Science. My expertise covers a wide range of programming languages and technologies, including React, C, C++, JavaScript, HTML, CSS, MongoDB, Node.js, and Express.js. I am particularly enthusiastic about full-stack development, where I can leverage my skills in both front-end and back-end technologies.
                                     </p>
-                                    <div class="icon"><span></span></div>
                                 </div>
+                                    <div class="icon"><span></span></div>
                             </div>
                         </div>
                         <div class="timeline">
@@ -61,23 +63,23 @@ const About = () => {
                                     <span class="year">Dhananjay Meshram</span>
                                     <h4 class="title">Fullstack Developer</h4>
                                     <p class="description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. Vivamus posuere nisi quis tortor interdum, in finibus risus convallis. Suspendisse efficitur lacus a nulla commodo, sit amet vestibulum nibh.
+                                    Hello, I'm Dhananjay, a computer science graduate with a BTech degree, currently working as a Fullstack Developer. My expertise lies in both backend and frontend development. As a Fullstack Developer, I have hands-on experience with a diverse set of technologies, including C, C++, Java, JavaScript, TypeScript, Python, HTML, CSS, React, SQL, Node.js, Express.js, Angular, and more. This extensive skill set enables me to navigate through various project requirements and deliver comprehensive solutions
                                     </p>
-                                    <div class="icon"><span></span></div>
                                 </div>
+                                    <div class="icon"><span></span></div>
                             </div>
                         </div>
                         <div class="timeline">
                             <div class="timeline-content">
-                                <div class="circle"><span><img></img></span></div>
+                                <div class="circle"><span><img src={Sandeep}></img></span></div>
                                 <div class="content">
                                     <span class="year">Sandeep Shiven</span>
                                     <h4 class="title">Backend Developer</h4>
                                     <p class="description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. Vivamus posuere nisi quis tortor interdum, in finibus risus convallis. Suspendisse efficitur lacus a nulla commodo, sit amet vestibulum nibh.
+                                    Hello, I'm a Computer Science graduate with a BTech degree and currently employed as a Specialist Programmer at Infosys. My primary focus is on backend development, where I excel in creating robust and efficient server-side solutions. However, I am versatile and can seamlessly transition to frontend development when the need arises.In terms of programming languages and technologies, my toolkit includes C, C++, Java, JavaScript, TypeScript, Python, HTML, CSS, React, SQL, Node.js, Express.js, Angular, Git and more.
                                     </p>
-                                    <div class="icon"><span></span></div>
                                 </div>
+                                    <div class="icon"><span></span></div>
                             </div>
                         </div>
                        
@@ -88,7 +90,6 @@ const About = () => {
           
         </div>
       </div>
-      
     </>
   );
 };

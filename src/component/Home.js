@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from 'react';
+import React, { Component, useEffect, useState } from "react";
 // import { Link } from 'react-router-dom';
 import bgImage from "./bg.png";
 import logoImage from "./soft.jpg";
@@ -54,14 +54,14 @@ const handleGmail = ()=>{
            <div className="rightSection">
             <div className='box-1'>
               <div class="cube-container">
-                        <div class="cube">
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                        </div>
+                <div class="cube">
+                  <div class="face"></div>
+                  <div class="face"></div>
+                  <div class="face"></div>
+                  <div class="face"></div>
+                  <div class="face"></div>
+                  <div class="face"></div>
+                </div>
               </div>
             </div>
              
@@ -114,6 +114,5 @@ const handleGmail = ()=>{
       
     )
   }
-
 
 export default Home;

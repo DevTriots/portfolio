@@ -28,13 +28,13 @@ export class Skill extends Component {
         <div className="container-skill" >
       <div className='images row'id="skill12">
        <h1 className='my-4'>Professional<span>Skillset</span></h1>
-        <div className="skillcard mx-2 " >
+        <div className="skillcard mx-2" id="skillid">
         <img src={logoImage1} className="card-img-top" alt="..."></img>
         <div className="cover"id="coverid">
           <p> C </p>
         </div>
         </div>
-        <div className="skillcard mx-2  kkk"id="skillid" >
+        <div className="skillcard mx-2"id="skillid" >
         <img src={logoImage2} className="card-img-top" alt="..."></img>
         <div className="cover"id="coverid">
           <p> C++</p>

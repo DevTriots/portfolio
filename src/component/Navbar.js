@@ -11,7 +11,7 @@ const Navbar = () => {
           <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
             <div class="container-fluid">
               <Link class="navbar-brand" to="/home"><img src={logoImage} alt="" className="logoImage"/>
-                DevTroits</Link>
+                DevTriots</Link>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation" >
               <span class="navbar-toggler-icon"></span>
             </button>
