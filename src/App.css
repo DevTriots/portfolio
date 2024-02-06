@@ -1020,7 +1020,7 @@ width: 40px;
 .number3 .cards {
   border-radius: 20px;
   border: 2px solid #c3073f;
-  width: inherit;
+  width: 25vw;
   height:inherit;
   overflow: hidden;
   color: #fff;
