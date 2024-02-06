@@ -1,8 +1,7 @@
-// import React, { Component } from "react";
-import Footer from "./footer";
-import Dhanno from "./Dhanno.jpeg";
-import Pussy from "./pussy.jpeg";
-import Sandeep from "./Sandeep.jpeg";
+
+import Dhanno from "./media/Dhanno.jpeg";
+import Pussy from "./media/pussy.jpeg";
+import Sandeep from "./media/Sandeep.jpeg";
 
 const About = () => {
   return (
