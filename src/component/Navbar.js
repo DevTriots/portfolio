@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+
 import { Link } from "react-router-dom";
-import logoImage from "../component/devTroits_logo.jpg";
+import logoImage from "./media/devTroits_logo.jpg";
 const Navbar = () => {
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
   // const handleMenuToggle = () => {

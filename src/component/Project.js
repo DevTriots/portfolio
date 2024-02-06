@@ -6,6 +6,7 @@ import logoImage3 from "./media/TwoGood-co2.png";
 import logoImage4 from "./media/iNotebook2.png";
 import logoImage5 from "./media/Todo-List2.png";
 import logoImage6 from "./media/Keeper2.png";
+import chatAppImage from "./media/chat-app.webp";
 export class Project extends Component {
   render() {
     return (
@@ -19,7 +20,6 @@ export class Project extends Component {
             </div>
             <div className="container2" id="container12">
               <div className="number3" id="number2">
-
                 <div className="cards iteam1" id="iteam12">
                   <div className="cardImage">
                     <img
@@ -31,23 +31,22 @@ export class Project extends Component {
                   <div className="cards-body">
                     <h5 className="cards-title">Textutilles</h5>
                     <p className="cards-text">
-                      In TextTweaker, the all-in-one solution
-                      formanipulating and optimizing your text! Whetheryou're a
-                      writer,editor, or just someone who lovesplaying with
-                      words, here tostreamline your text
-                      processing tasks.<br></br>
+                      In TextTweaker, the all-in-one solution formanipulating
+                      and optimizing your text! Whetheryou're a writer,editor,
+                      or just someone who lovesplaying with words, here
+                      tostreamline your text processing tasks.<br></br>
                       Technology use - HTML, JavaScript, CSS ,React.js
                     </p>
                   </div>
-                  <div className="proButton" >
-                      <a
+                  <div className="proButton">
+                    <a
                       href="https://github.com/pushpendra0809/pushpendratext"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       Project
                     </a>
-                    </div>
+                  </div>
                 </div>
 
                 <div className="cards iteam1 md-6  mx-6  " id="iteam12">
@@ -67,15 +66,14 @@ export class Project extends Component {
                       <br></br>
                       Technology use - HTML, JavaScript, CSS ,React.js.
                     </p>
-                    <div  className="proButton">
-                    <a
-                      href="https://github.com/pushpendra0809/nwesMonkey"
-                     
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Porject
-                    </a>
+                    <div className="proButton">
+                      <a
+                        href="https://github.com/pushpendra0809/nwesMonkey"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Porject
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -99,22 +97,20 @@ export class Project extends Component {
                       Technology use - HTML, JavaScript, CSS ,React.js.
                     </p>
                     {/* <p  className="cards-text"><small className="text-body-secondary">(08/2023-10/2023)</small></p> */}
-                   <div className="proButton">
-                    <a
-                      href="https://github.com/pushpendra0809/iNootebook"
-                      
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Porject
-                    </a>
+                    <div className="proButton">
+                      <a
+                        href="https://github.com/pushpendra0809/iNootebook"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Porject
+                      </a>
                     </div>
-                    </div>
+                  </div>
                 </div>
               </div>
 
               <div className="number3" id="number2">
-
                 <div className="cards iteam1 md-6  mx-6  " id="iteam12">
                   <div className="cardImage">
                     <img
@@ -134,24 +130,24 @@ export class Project extends Component {
                       Technology use - HTML, JavaScript, CSS , Animation
                     </p>
                     <div className="proButton" id="proButton1">
-                    {/* <button> */}
+                      {/* <button> */}
                       <a
-                      href="https://github.com/pushpendra0809/tow-good"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Project
-                    </a>
-                    {/* </button> */}
-                    {/* <button> */}
+                        href="https://github.com/pushpendra0809/tow-good"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Project
+                      </a>
+                      {/* </button> */}
+                      {/* <button> */}
                       <a
-                      href="https://pushpendra0809.github.io/tow-good/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Demo
-                    </a>
-                    {/* </button> */}
+                        href="https://pushpendra0809.github.io/tow-good/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                      </a>
+                      {/* </button> */}
                     </div>
                   </div>
                 </div>
@@ -176,21 +172,21 @@ export class Project extends Component {
                       Technology use - HTML, JavaScript, CSS .
                     </p>
                     {/* <p  className="cards-text"><small className="text-body-secondary">(06/2023-07/2023)</small></p> */}
-                   <div className="proButton">
-                    <a
-                      href="https://github.com/pushpendra0809/Spotify-Colon"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Porject
-                    </a>
-                    <a
-                      href="https://pushpendra0809.github.io/Spotify-Colon/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Demo
-                    </a>
+                    <div className="proButton">
+                      <a
+                        href="https://github.com/pushpendra0809/Spotify-Colon"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Porject
+                      </a>
+                      <a
+                        href="https://pushpendra0809.github.io/Spotify-Colon/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -208,26 +204,26 @@ export class Project extends Component {
                     <p className="cards-text">
                       Users can effortlessly Create, edit, and delete notes
                       effortlessly with our intuitive todo list app. Seamlessly
-                      organize your tasks, ensuring a streamlined and
-                      efficient task management experience.<br></br>
+                      organize your tasks, ensuring a streamlined and efficient
+                      task management experience.<br></br>
                       Technology use - HTML, JavaScript, CSS, react.js.
                     </p>
                     {/* <p  className="cards-text"><small className="text-body-secondary">(06/2023-07/2023)</small></p> */}
                     <div className="proButton">
-                    <a
-                      href="https://github.com/dhananjay1002000/todo-2.0-api"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Porject
-                    </a>
-                    <a
-                      href="https://todo-nmof.onrender.com/ "
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Demo
-                    </a>
+                      <a
+                        href="https://github.com/dhananjay1002000/todo-2.0-api"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Porject
+                      </a>
+                      <a
+                        href="https://todo-nmof.onrender.com/ "
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -237,7 +233,7 @@ export class Project extends Component {
                 <div className="cards iteam1  " id="iteam12">
                   <div className="cardImage">
                     <img
-                      src={logoImage2}
+                      src={chatAppImage}
                       className="img-fluid rounded-start"
                       alt="..."
                     />
@@ -245,15 +241,12 @@ export class Project extends Component {
                   <div className="cards-body">
                     <h5 className="cards-title">ChatApp</h5>
                     <p className="cards-text">
-                      Users can effortlessly play, pause, and skip to the next
-                      or previous tracks, providing an intuitive and seamless
-                      music listening experience. Leveraging my app development
-                      skills, I ensured smooth and responsive performance.
+                    Chat app, a dynamic communication platform powered by Node.js and Socket.IO. This real-time messaging application seamlessly connects users, providing instant interaction and collaboration. Leveraging the efficiency of Node.js and the real-time capabilities of Socket.IO, chat app delivers a responsive and engaging user experience.
                       <br></br>
-                      Technology use - HTML, JavaScript, CSS .
+                      Technology use - HTML, JavaScript, CSS, Node js, Socket.io .
                     </p>
-                    </div>
-                    <div className="proButton">
+                  </div>
+                  <div className="proButton">
                     <a
                       href="https://github.com/dhananjay1002000/chatApp"
                       target="_blank"
@@ -261,8 +254,7 @@ export class Project extends Component {
                     >
                       Porject
                     </a>
-                    <a href="https://todo-nmof.onrender.com/ " target="_blank" rel="noopener noreferrer">Demo</a>
-                    </div>
+                  </div>
                 </div>
 
                 <div className="cards iteam1" id="iteam12">
@@ -283,45 +275,7 @@ export class Project extends Component {
                       <br></br>
                       Technology use - HTML, JavaScript, CSS .
                     </p>
-                    </div>
-                   <div className="proButton">
-                    <a
-                      href="https://github.com/dhananjay1002000/keeper"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Porject
-                    </a>
-                    <a
-                      href="https://keeper-app-v1.onrender.com/ "
-
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Demo
-                    </a>
-                    </div>
-                </div>
-
-                <div className="cards iteam1" id="iteam12">
-                  <div className="cardImage">
-                    <img
-                      src={logoImage6}
-                      className="img-fluid rounded-start"
-                      alt="..."
-                    />
                   </div>
-                  <div className="cards-body">
-                    <h5 className="cards-title">keeper</h5>
-                    <p className="cards-text">
-                      Users can effortlessly play, pause, and skip to the next
-                      or previous tracks, providing an intuitive and seamless
-                      music listening experience. Leveraging my app development
-                      skills, I ensured smooth and responsive performance.
-                      <br></br>
-                      Technology use - HTML, JavaScript, CSS .
-                    </p>
-                    </div>
                   <div className="proButton">
                     <a
                       href="https://github.com/dhananjay1002000/keeper"
@@ -337,7 +291,7 @@ export class Project extends Component {
                     >
                       Demo
                     </a>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>

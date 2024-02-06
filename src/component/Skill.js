@@ -19,7 +19,6 @@ import logoIcon7 from "./media/github (2).png";
 import logoIcon8 from "./media/postman_icon.png";
 import logoIcon9 from "./media/slack_icon.png";
 
-import Footer from './footer';
 
 export class Skill extends Component {
   render() {
