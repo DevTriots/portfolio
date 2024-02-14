@@ -15,7 +15,7 @@ export class Project extends Component {
           <div className="cantent-wrap" id="cantent-wrap1">
             <div className="container1 ">
               <h2>
-                Our<span>Project</span>
+                Our<span>Projects</span>
               </h2>
             </div>
             <div className="container2" id="container12">
