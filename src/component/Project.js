@@ -103,7 +103,7 @@ export class Project extends Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Porject
+                        Project
                       </a>
                     </div>
                   </div>
@@ -215,7 +215,7 @@ export class Project extends Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Porject
+                       Project
                       </a>
                       <a
                         href="https://todo-nmof.onrender.com/ "
@@ -252,7 +252,7 @@ export class Project extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Porject
+                      Project
                     </a>
                   </div>
                 </div>
@@ -268,10 +268,9 @@ export class Project extends Component {
                   <div className="cards-body">
                     <h5 className="cards-title">keeper</h5>
                     <p className="cards-text">
-                      Users can effortlessly play, pause, and skip to the next
-                      or previous tracks, providing an intuitive and seamless
-                      music listening experience. Leveraging my app development
-                      skills, I ensured smooth and responsive performance.
+                     Note-keeping app, built on the MERN stack, allows users to create, view, update, and delete notes. 
+                        It includes MongoDB for data storage, 
+                        Express.js for the backend, React for the frontend, and Node.js for the server.
                       <br></br>
                       Technology use - HTML, JavaScript, CSS .
                     </p>
@@ -282,7 +281,7 @@ export class Project extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Porject
+                      Project
                     </a>
                     <a
                       href="https://keeper-app-v1.onrender.com/ "
