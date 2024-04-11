@@ -72,7 +72,7 @@ export class Project extends Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Porject
+                        Project
                       </a>
                     </div>
                   </div>
@@ -178,7 +178,7 @@ export class Project extends Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Porject
+                        Project
                       </a>
                       <a
                         href="https://pushpendra0809.github.io/Spotify-Colon/"
