@@ -18,6 +18,8 @@ import logoIcon6 from "./media/vs code.png";
 import logoIcon7 from "./media/github (2).png";
 import logoIcon8 from "./media/postman_icon.png";
 import logoIcon9 from "./media/slack_icon.png";
+import logoIcon10 from "./media/wordpress-logo (1).png";
+import logoIcon11 from "./media/shopify.png";
 
 
 export class Skill extends Component {
@@ -109,6 +111,18 @@ export class Skill extends Component {
         <img src={logoIcon4} className="card-img-top" alt="..."></img>
         <div className="cover"id="coverid">
           <p> Azure </p>
+        </div>
+        </div>
+        <div className="skillcard mx-2"id="skillid" >
+        <img src={logoIcon10} className="card-img-top" alt="..."></img>
+        <div className="cover"id="coverid">
+          <p> Wordpress</p>
+        </div>
+        </div>
+        <div className="skillcard mx-2"id="skillid" >
+        <img src={logoIcon11} className="card-img-top" alt="..."></img>
+        <div className="cover"id="coverid">
+          <p> Shopify</p>
         </div>
         </div>
        

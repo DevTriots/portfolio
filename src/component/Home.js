@@ -12,7 +12,7 @@ function Home() {
     typeSpeed:120,
     deleteSpeed:80
 })
-const handleGmail = ()=>{
+  const handleGmail = ()=>{
   const recipientEmail='devtriots@gmail.com';
   const subject = 'Subject of the email';
   const body = 'Body of the email';
