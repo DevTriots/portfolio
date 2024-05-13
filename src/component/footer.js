@@ -1,9 +1,9 @@
 import React from 'react';
 import { useEffect, useState } from "react";
-import git from "./git.png";
-import insta from "./insta.png";
-import mail from "./mail.png";
-import link from "./link.png";
+import git from "./media/git.png";
+import insta from "./media/insta.png";
+import mail from "./media/mail.png";
+import link from "./media/link.png";
 
 
 function Footer() {

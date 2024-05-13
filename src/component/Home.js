@@ -1,15 +1,8 @@
-import React, { Component, useEffect, useState } from "react";
-// import { Link } from 'react-router-dom';
-import bgImage from "./bg.png";
-import logoImage from "./soft.jpg";
-import Footer from './footer';
+
+
 import {useTypewriter} from 'react-simple-typewriter' 
-import down from './arrow-2.png'
-import git from "./git.png";
-import insta from "./insta.png";
-import mail from "./mail.png";
-import link from "./link.png";
-import arrow from "./arrow.png"
+import down from './media/arrow-2.png'
+import arrow from "./media/arrow.png"
 
 
 function Home() {

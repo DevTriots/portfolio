@@ -21,7 +21,6 @@ import logoIcon9 from "./media/slack_icon.png";
 import logoIcon10 from "./media/wordpress-logo (1).png";
 import logoIcon11 from "./media/shopify.png";
 
-import Footer from './footer';
 
 export class Skill extends Component {
   render() {
