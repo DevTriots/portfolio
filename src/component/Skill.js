@@ -18,7 +18,7 @@ import logoIcon6 from "./media/vs code.png";
 import logoIcon7 from "./media/github (2).png";
 import logoIcon8 from "./media/postman_icon.png";
 import logoIcon9 from "./media/slack_icon.png";
-import logoIcon10 from "./media/wordpress-logo (1).png";
+import logoIcon10 from "./media/wordpress.png";
 import logoIcon11 from "./media/shopify.png";
 
 
